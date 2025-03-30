@@ -13,6 +13,7 @@ function AnotherRedux() {
         <button className="btn btn-primary m-4 p-4" onClick={() => dispatch(incrementByAsync(Number(incrementAmount)||0))}>ByAsync</button>
          <button className="btn btn-primary" onClick={() => dispatch(incrementByAmount(Number(incrementAmount) || 0))}>Add Amount</button>
         <h1>{count}</h1>
+        {/* input is using increment of useState */}
         <input type="text" placeholder="Type here" className="input" value={incrementAmount} onChange={(e)=>setIncrementAmount(e.target.value)} />
  
     </>);

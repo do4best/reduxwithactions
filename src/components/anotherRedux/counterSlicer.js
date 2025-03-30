@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { Counter } from "../reduxExample/Counter"
+
 
 export const counterSlicer = createSlice({
  name:'counter',
@@ -16,16 +16,16 @@ export const counterSlicer = createSlice({
     },
    
 })
-export const { increment, decrement,incrementByAmount} = counterSlicer.actions
+
 
 export const incrementByAsync = (amount) => (dispatch)=> {
     setTimeout(() => {
         dispatch(incrementByAmount(amount))
     },1000)
 }
-
-function selectCount(state) {
+const selectCount=(state) =>{
     return state.counter.value
 }
 export { selectCount }  
-export default counterSlicer;
+export default counterSlicer.reducer;
+export const { increment, decrement,incrementByAmount} = counterSlicer.actions
