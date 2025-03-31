@@ -1,8 +1,10 @@
+import MainGrid from "../understandingGrid/mainGrid";
 import MainNaveBar from "./MainNaveBar";
 
 function MainSite() {
     return (<>
-    <MainNaveBar/>
+        <MainNaveBar />
+        <MainGrid/>
     </>);
 }
 
