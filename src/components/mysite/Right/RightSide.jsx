@@ -1,3 +1,5 @@
+import WorkExperince from "./WorkExperince";
+
 function RightSide() {
     return (<>
     
@@ -12,7 +14,8 @@ create a digital marketing campaign that tripled average signups in a
 single month. Eager to obtain a challenging position at a prestigious
 company like Dream Version that will expand my learning and build upon
                 my developer skills.
-                </p>
+            </p>
+            <WorkExperince/>
         
         </div></>);
 }

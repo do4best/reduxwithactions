@@ -1,6 +1,7 @@
 import { MdEmail, MdLocalPhone, MdLocationPin } from "react-icons/md";
 import { IoLogoLinkedin } from "react-icons/io";
 import Education from "./Education";
+import Lanuguages from "./languages";
 function LeftSide() {
     return (<>
     <div className="bg-gray-300 text-black rounded-2xl">    <h1 className="text-2xl p-5">
@@ -18,7 +19,8 @@ function LeftSide() {
             </ul>
         
         </div>
-        <Education/>
+        <Education />
+        <Lanuguages/>
     </>);
 }
 

@@ -1,7 +1,7 @@
 import MainGrid from "../understandingGrid/mainGrid";
 import LeftSide from "./Left/leftSide";
 import MainNaveBar from "./MainNaveBar";
-import RightSide from "./RightSide";
+import RightSide from "./Right/RightSide";
 
 function MainSite() {
     return (<>
