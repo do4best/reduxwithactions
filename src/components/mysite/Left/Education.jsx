@@ -13,7 +13,8 @@ function Education() {
                         <span className="text-xl">Lahore.Pk</span></span></li>
                      
             </ul>
-            </div>
+        </div>
+         <div className="divider"></div>
     </>);
 }
 

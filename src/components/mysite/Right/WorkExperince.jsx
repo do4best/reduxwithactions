@@ -9,6 +9,7 @@ knowledge which is needed to demonstrate this demo which is still need some make
 i compassion to built commercials websites. I will try my best to be fruit full for your
             company if a chance is give.</p>
         </section>
+         <div className="divider"></div>
         <section>
             <div className="pl-5">
             <h1 className="text-xl first-letter:underline ">Web Master</h1>
@@ -20,6 +21,7 @@ i compassion to built commercials websites. I will try my best to be fruit full 
             <li>I was a web master as this site is built in Word Press and i only manipulate
                     the template.</li>
                 <li>Responsible for the items designing in PS and upload them.</li></ul></section>
+         <div className="divider"></div>
           <section>
             <div className="pl-5">
             <h1 className="text-xl first-letter:underline ">Web Master</h1>
@@ -30,6 +32,7 @@ i compassion to built commercials websites. I will try my best to be fruit full 
             <ul className="p-5">
             <li>Being a web master i manage another website using Word Press</li>
             </ul></section>
+        <div className="divider"></div>
         <section>
             <div className="pl-5">
             <h1 className="text-xl first-letter:underline ">Front End Developer</h1>
